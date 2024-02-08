@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con{
+    width: 1200px;
+    margin: auto;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav{
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+ul{
+    list-style: none;
+}
+.boot{
+    gap: 30px;
+}
+
+.flex{
+    display: flex;
+}
+
+.content{
+    padding: 15px;
+}
+
+.content h3, p{
+    padding: 5px;
+}
+
+ .banner .bg1{
+    position: relative;
+}
+.banner .bg2{
+    position: absolute;
+    bottom: 150px;
+    text-align: center;
+    width: 100%;
+}
+.last{
+    padding: 30px;
+}
+
+footer{
+    width: 100%;
+    background: gray;
+    padding: 20px;
+    justify-content: space-between;
+}
